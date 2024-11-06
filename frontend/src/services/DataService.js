@@ -1,6 +1,6 @@
 import { IndexedDB } from '../utils/db'
 
-const API_URL = 'http://localhost:3000'
+const API_URL = 'https://offline-pwa-production.up.railway.app'
 
 export class DataService {
   static async getAll() {

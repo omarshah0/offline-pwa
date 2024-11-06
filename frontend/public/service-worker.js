@@ -6,7 +6,7 @@ const urlsToCache = [
   // Add other static assets
 ]
 
-const API_URL = 'http://localhost:3000'
+const API_URL = 'https://offline-pwa-production.up.railway.app'
 
 self.addEventListener('install', event => {
   event.waitUntil(
